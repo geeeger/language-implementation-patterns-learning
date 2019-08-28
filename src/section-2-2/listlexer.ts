@@ -6,13 +6,15 @@ export default class ListLexer extends Lexer {
     static COMMA: number = 3;
     static LBRACK: number = 4;
     static RBRACK: number = 5;
+    static EQUALS: number = 6;
     static tokenNames: string[] = [
         'n/a',
         '<EOF>',
         'NAME',
         'COMMA',
         'LBRACK',
-        'RBRACK'
+        'RBRACK',
+        'EQUALS'
     ];
 
     constructor(input: string) {
@@ -68,6 +70,9 @@ export default class ListLexer extends Lexer {
                 case ']':
                     this.consume();
                     return new Token(ListLexer.RBRACK, ']');
+                case '=':
+                    this.consume();
+                    return new Token(ListLexer.EQUALS, '=');
                 default:
                     if (this.isLETTER()) {
                         return this.NAME();
