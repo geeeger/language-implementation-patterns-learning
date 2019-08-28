@@ -1,0 +1,23 @@
+{
+  "name": "language-implementation-patterns-learning",
+  "version": "1.0.0",
+  "description": "编程语言实现模式一书的学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geeeger/language-implementation-patterns-learning.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geeeger/language-implementation-patterns-learning/issues"
+  },
+  "homepage": "https://github.com/geeeger/language-implementation-patterns-learning#readme",
+  "dependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
