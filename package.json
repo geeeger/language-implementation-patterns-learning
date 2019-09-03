@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/geeeger/language-implementation-patterns-learning#readme",
   "dependencies": {
+    "@types/antlr4": "^4.7.0",
+    "antlr4": "^4.7.2",
+    "antlr4-tool": "^1.0.26",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   }
