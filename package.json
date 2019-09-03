@@ -22,5 +22,8 @@
     "antlr4-tool": "^1.0.26",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.3"
   }
 }
